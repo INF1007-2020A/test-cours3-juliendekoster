@@ -10,8 +10,13 @@ Traceback (most recent call last):
   File "test_exercice.py", line 24, in test_capitalize_first_letter
     output = list(map(exercice.capitaliser_pays, altered_names))
   File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
-    print(capitalize(nom))
-NameError: name 'capitalize' is not defined
+    print(capitaliser_pays(nom))
+  File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
+    print(capitaliser_pays(nom))
+  File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
+    print(capitaliser_pays(nom))
+  [Previous line repeated 971 more times]
+RecursionError: maximum recursion depth exceeded
 
 ======================================================================
 ERROR: test_linking_words (__main__.TestExercice)
@@ -20,8 +25,13 @@ Traceback (most recent call last):
   File "test_exercice.py", line 60, in test_linking_words
     output = list(map(exercice.capitaliser_pays, altered_names))
   File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
-    print(capitalize(nom))
-NameError: name 'capitalize' is not defined
+    print(capitaliser_pays(nom))
+  File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
+    print(capitaliser_pays(nom))
+  File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
+    print(capitaliser_pays(nom))
+  [Previous line repeated 971 more times]
+RecursionError: maximum recursion depth exceeded
 
 ======================================================================
 ERROR: test_lower_case_names (__main__.TestExercice)
@@ -30,8 +40,13 @@ Traceback (most recent call last):
   File "test_exercice.py", line 35, in test_lower_case_names
     output = list(map(exercice.capitaliser_pays, altered_names))
   File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
-    print(capitalize(nom))
-NameError: name 'capitalize' is not defined
+    print(capitaliser_pays(nom))
+  File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
+    print(capitaliser_pays(nom))
+  File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
+    print(capitaliser_pays(nom))
+  [Previous line repeated 971 more times]
+RecursionError: maximum recursion depth exceeded
 
 ======================================================================
 ERROR: test_upper_case_names (__main__.TestExercice)
@@ -40,10 +55,15 @@ Traceback (most recent call last):
   File "test_exercice.py", line 44, in test_upper_case_names
     output = list(map(exercice.capitaliser_pays, altered_names))
   File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
-    print(capitalize(nom))
-NameError: name 'capitalize' is not defined
+    print(capitaliser_pays(nom))
+  File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
+    print(capitaliser_pays(nom))
+  File "/home/runner/work/test-cours3-juliendekoster/test-cours3-juliendekoster/exercice.py", line 4, in capitaliser_pays
+    print(capitaliser_pays(nom))
+  [Previous line repeated 971 more times]
+RecursionError: maximum recursion depth exceeded
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.002s
+Ran 4 tests in 0.015s
 
 FAILED (errors=4)
